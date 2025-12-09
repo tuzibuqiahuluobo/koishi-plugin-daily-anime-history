@@ -30,7 +30,7 @@
 npm install koishi-plugin-daily-anime-history
 ```
 
-或在 Koishi 插件市场中搜索 `daily-anime-history` 安装。
+或在 Koishi 插件市场中搜索 `koishi-plugin-daily-anime-history` 安装。
 
 ## 配置
 
