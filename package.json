@@ -1,0 +1,54 @@
+{
+    "name": "koishi-plugin-daily-anime-history",
+    "version": "2.1.2",
+    "description": "历史上的今天与节假日推送插件",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib",
+        "package.json"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "koishi",
+        "plugin",
+        "history",
+        "holiday",
+        "anime"
+    ],
+    "author": "tuzibuqiahuluobo <2672172829@qq.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tuzibuqiahuluobo/koishi-plugin-daily-anime-history"
+    },
+    "homepage": "https://github.com/tuzibuqiahuluobo/koishi-plugin-daily-anime-history#readme",
+    "peerDependencies": {
+        "koishi": "^4.18.0"
+    },
+    "dependencies": {
+        "koishi-plugin-cron": "^3.0.0",
+        "koishi-plugin-puppeteer": "^3.9.0",
+        "sharp": "^0.33.0"
+    },
+    "koishi": {
+        "description": {
+            "zh": "历史上的今天与节假日推送插件"
+        },
+        "service": {
+            "required": [
+                "puppeteer",
+                "http",
+                "cron"
+            ]
+        }
+    },
+    "devDependencies": {
+        "@types/node": "^24.10.2",
+        "koishi": "^4.18.9",
+        "typescript": "^5.9.3"
+    }
+}
