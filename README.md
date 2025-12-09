@@ -225,7 +225,7 @@ A: 使用 CSS `background-position` 值，如：
 
 ## 许可证
 
-MIT
+本项目采用 [MIT License](./LICENSE) 许可证。详见 [LICENSE](./LICENSE) 文件。
 
 ## 作者
 
