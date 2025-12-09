@@ -1,6 +1,6 @@
 {
     "name": "koishi-plugin-daily-anime-history",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "description": "历史上的今天与节假日推送插件",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -38,6 +38,7 @@
         "description": {
             "zh": "历史上的今天与节假日推送插件"
         },
+        "homepage": "https://github.com/tuzibuqiahuluobo/koishi-plugin-daily-anime-history",
         "service": {
             "required": [
                 "puppeteer",
